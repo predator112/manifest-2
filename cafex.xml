@@ -22,6 +22,9 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="system_core" remote="cafex" />
 
+  <!-- Sepolicy -->
+  <project path="device/extended/sepolicy" name="device_extended_sepolicy" remote="cafex" />
+    
   <!-- recovery -->
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cafex" />
@@ -55,6 +58,12 @@
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cafex" />
   <remove-project name="platform/vendor/codeaurora/telephony" />  
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_telephony" remote="cafex" />
-  
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />  
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cafex">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+  </project>
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />  
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="cafex" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="cafex" />  
       
 </manifest>
