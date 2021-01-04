@@ -839,7 +839,7 @@
   <include name="hals.xml"/>
   <include name="aospa.xml"/>
   <include name="cafex.xml"/>  
-  <include name="lineage.xml"/>
+  <include name="lineage.xml" />
   <include name="remove.xml"/>  
 
 </manifest>
