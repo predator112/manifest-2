@@ -74,7 +74,7 @@
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="lineage"  >
 
   <!-- packages repos -->
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage"  >
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage"  >
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
 
 </manifest>
