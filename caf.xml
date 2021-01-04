@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/quic/la/"
+           review="codeaurora.org" />
+
+  <default revision="refs/tags/LA.UM.9.6.2.r1-02100-89xx.0"
+           remote="caf"
+           sync-j="8"
+           sync-c="true"/>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <project name="device/amlogic/yukawa" />
+  <project clone-depth="2" name="device/amlogic/yukawa-kernel" />
+  <project name="device/common" />
+  <project name="device/generic/arm64" />
+  <project name="device/generic/armv7-a-neon" />
+  <project name="device/generic/art" />
+  <project name="device/generic/car" />
+  <project name="device/generic/common" />
+  <project name="device/generic/goldfish" />
+  <project name="device/generic/goldfish-opengl" />
+  <project name="device/generic/mini-emulator-arm64" />
+  <project name="device/generic/mini-emulator-armv7-a-neon" />
+  <project name="device/generic/mini-emulator-x86" />
+  <project name="device/generic/mini-emulator-x86_64" />
+  <project name="device/generic/opengl-transport" />
+  <project name="device/generic/qemu" />
+  <project name="device/generic/trusty" />
+  <project name="device/generic/uml" />
+  <project name="device/generic/x86" />
+  <project name="device/generic/x86_64" />
+  <project name="device/google/atv" />
+  <project name="device/google/contexthub" />
+  <project name="device/google/cuttlefish" />
+  <project name="device/google/cuttlefish_kernel" />
+  <project name="device/google/cuttlefish_vmm" />
+  <project name="device/google/vrservices" />
+  <project name="device/google_car" />
+  <project name="device/linaro/dragonboard" />
+  <project name="device/linaro/dragonboard-kernel" />
+  <project name="device/linaro/poplar" />
+  <project name="device/linaro/poplar-kernel" />
+  <project name="device/qcom/common" >
