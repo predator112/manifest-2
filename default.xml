@@ -840,5 +840,6 @@
   <include name="aospa.xml"/>
   <include name="cafex.xml"/>  
   <include name="remove.xml"/>  
-  <include name="lineage.xml" />
+  <include name="lineage.xml"/>
+
 </manifest>
