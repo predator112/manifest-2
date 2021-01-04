@@ -45,3 +45,5 @@
   <project name="device/linaro/poplar" />
   <project name="device/linaro/poplar-kernel" />
   <project name="device/qcom/common" >
+
+<manifest>
